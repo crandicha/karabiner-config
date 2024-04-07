@@ -183,3 +183,14 @@ export function rectangle(name: string): LayerCommand {
 export function app(name: string): LayerCommand {
   return open(`-a '${name}.app'`);
 }
+
+export function run(shell_command: string): LayerCommand {
+  return {
+    to: [
+      {
+        shell_command,
+      },
+    ],
+    description: shell_command,
+  };
+}

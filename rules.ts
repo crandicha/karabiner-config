@@ -1,6 +1,6 @@
 import fs from "fs";
 import { KarabinerRules } from "./types";
-import { createHyperSubLayers, app, open, yabai } from "./utils";
+import { createHyperSubLayers, app, open, run } from "./utils";
 
 const rules: KarabinerRules[] = [
   // Define the Hyper key itself
@@ -46,7 +46,7 @@ const rules: KarabinerRules[] = [
   },
   ...createHyperSubLayers({
     // b = "B"rowse
-    b: {
+    a: {
       g: open("https://github.com"),
       j: open(
         "https://borobudur.atlassian.net/jira/software/c/projects/PRCNG/boards/632?assignee=712020%3A73a7c48f-f6dc-40a1-abc7-82dd1cea1af3"
@@ -55,28 +55,15 @@ const rules: KarabinerRules[] = [
       m: open("https://mail.google.com"),
     },
     // o = "Open" applications
-    o: {
+    s: {
       g: app("Google Chrome"),
       v: app("Visual Studio Code"),
-      s: app("Slack"),
+      k: app("Slack"),
       t: app("Todoist"),
       i: app("iTerm"),
-      0: app("Obsidian"),
+      o: app("Obsidian"),
       f: app("Finder"),
       p: app("Spotify"),
-    },
-
-    // s = "System"
-    s: {
-      e: {
-        to: [
-          {
-            // Emoji picker
-            key_code: "spacebar",
-            modifiers: ["right_control", "right_command"],
-          },
-        ],
-      },
     },
   }),
 ];
