@@ -120,30 +120,6 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -n -a /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --args --user-data-dir=\"/tmp/chrome_dev_test\" --disable-web-security"
-                  }
-                ],
-                "description": "Run open -n -a /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --args --user-data-dir=\"/tmp/chrome_dev_test\" --disable-web-security",
-                "type": "basic",
-                "from": {
-                  "key_code": "h",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_b",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
                     "shell_command": "open https://borobudur.atlassian.net/jira/software/c/projects/PRCNG/boards/632?assignee=712020%3A73a7c48f-f6dc-40a1-abc7-82dd1cea1af3"
                   }
                 ],
