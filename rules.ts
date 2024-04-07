@@ -38,32 +38,15 @@ const rules: KarabinerRules[] = [
         ],
         type: "basic",
       },
-      //      {
-      //        type: "basic",
-      //        description: "Disable CMD + Tab to force Hyper Key usage",
-      //        from: {
-      //          key_code: "tab",
-      //          modifiers: {
-      //            mandatory: ["left_command"],
-      //          },
-      //        },
-      //        to: [
-      //          {
-      //            key_code: "tab",
-      //          },
-      //        ],
-      //      },
     ],
   },
   ...createHyperSubLayers({
-    // spacebar: open(
-    //   "raycast://extensions/stellate/mxstbr-commands/create-notiodn-todo"
-    // ),
     // b = "B"rowse
     b: {
       g: open("https://github.com"),
       j: open("https://borobudur.atlassian.net/jira/software/c/projects/PRCNG/boards/632?assignee=712020%3A73a7c48f-f6dc-40a1-abc7-82dd1cea1af3"),
       c: open("https://calendar.google.com"),
+      m: open("https://mail.google.com"),
     },
     // o = "Open" applications
     o: {
@@ -77,133 +60,8 @@ const rules: KarabinerRules[] = [
       p: app("Spotify"),
     },
 
-    // w = "Window" via rectangle.app
-    // w: {
-    //   semicolon: {
-    //     description: "Window: Hide",
-    //     to: [
-    //       {
-    //         key_code: "h",
-    //         modifiers: ["right_command"],
-    //       },
-    //     ],
-    //   },
-    //   y: rectangle("previous-display"),
-    //   o: rectangle("next-display"),
-    //   k: rectangle("top-half"),
-    //   j: rectangle("bottom-half"),
-    //   h: rectangle("left-half"),
-    //   l: rectangle("right-half"),
-    //   f: rectangle("maximize"),
-    //   u: {
-    //     description: "Window: Previous Tab",
-    //     to: [
-    //       {
-    //         key_code: "tab",
-    //         modifiers: ["right_control", "right_shift"],
-    //       },
-    //     ],
-    //   },
-    //   i: {
-    //     description: "Window: Next Tab",
-    //     to: [
-    //       {
-    //         key_code: "tab",
-    //         modifiers: ["right_control"],
-    //       },
-    //     ],
-    //   },
-    //   n: {
-    //     description: "Window: Next Window",
-    //     to: [
-    //       {
-    //         key_code: "grave_accent_and_tilde",
-    //         modifiers: ["right_command"],
-    //       },
-    //     ],
-    //   },
-    //   b: {
-    //     description: "Window: Back",
-    //     to: [
-    //       {
-    //         key_code: "open_bracket",
-    //         modifiers: ["right_command"],
-    //       },
-    //     ],
-    //   },
-    //   // Note: No literal connection. Both f and n are already taken.
-    //   m: {
-    //     description: "Window: Forward",
-    //     to: [
-    //       {
-    //         key_code: "close_bracket",
-    //         modifiers: ["right_command"],
-    //       },
-    //     ],
-    //   },
-    //   d: {
-    //     description: "Window: Next display",
-    //     to: [
-    //       {
-    //         key_code: "right_arrow",
-    //         modifiers: ["right_control", "right_option", "right_command"],
-    //       },
-    //     ],
-    //   },
-    // },
-
     // s = "System"
     s: {
-      // u: {
-      //   to: [
-      //     {
-      //       key_code: "volume_increment",
-      //     },
-      //   ],
-      // },
-      // j: {
-      //   to: [
-      //     {
-      //       key_code: "volume_decrement",
-      //     },
-      //   ],
-      // },
-      // i: {
-      //   to: [
-      //     {
-      //       key_code: "display_brightness_increment",
-      //     },
-      //   ],
-      // },
-      // k: {
-      //   to: [
-      //     {
-      //       key_code: "display_brightness_decrement",
-      //     },
-      //   ],
-      // },
-      // l: {
-      //   to: [
-      //     {
-      //       key_code: "q",
-      //       modifiers: ["right_control", "right_command"],
-      //     },
-      //   ],
-      // },
-      // p: {
-      //   to: [
-      //     {
-      //       key_code: "play_or_pause",
-      //     },
-      //   ],
-      // },
-      // semicolon: {
-      //   to: [
-      //     {
-      //       key_code: "fastforward",
-      //     },
-      //   ],
-      // },
       e: {
         to: [
           {
@@ -213,71 +71,7 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      // Turn on Elgato KeyLight
-      // y: {
-      //   to: [
-      //     {
-      //       shell_command: `curl -H 'Content-Type: application/json' --request PUT --data '{ "numberOfLights": 1, "lights": [ { "on": 1, "brightness": 100, "temperature": 215 } ] }' http://192.168.8.84:9123/elgato/lights`,
-      //     },
-      //   ],
-      // },
-      // h: {
-      //   to: [
-      //     {
-      //       shell_command: `curl -H 'Content-Type: application/json' --request PUT --data '{ "numberOfLights": 1, "lights": [ { "on": 0, "brightness": 100, "temperature": 215 } ] }' http://192.168.8.84:9123/elgato/lights`,
-      //     },
-      //   ],
-      // },
-      // "D"o not disturb toggle
-      // d: open(`raycast://extensions/yakitrak/do-not-disturb/toggle`),
     },
-
-    // v = "moVe" which isn't "m" because we want it to be on the left hand
-    // so that hjkl work like they do in vim
-    // v: {
-    //   h: {
-    //     to: [{ key_code: "left_arrow" }],
-    //   },
-    //   j: {
-    //     to: [{ key_code: "down_arrow" }],
-    //   },
-    //   k: {
-    //     to: [{ key_code: "up_arrow" }],
-    //   },
-    //   l: {
-    //     to: [{ key_code: "right_arrow" }],
-    //   },
-    //   // Magicmove via homerow.app
-    //   m: {
-    //     to: [{ key_code: "f", modifiers: ["right_control"] }],
-    //   },
-    //   // Scroll mode via homerow.app
-    //   s: {
-    //     to: [{ key_code: "j", modifiers: ["right_control"] }],
-    //   },
-    //   d: {
-    //     to: [{ key_code: "d", modifiers: ["right_shift", "right_command"] }],
-    //   },
-    //   u: {
-    //     to: [{ key_code: "page_down" }],
-    //   },
-    //   i: {
-    //     to: [{ key_code: "page_up" }],
-    //   },
-    // },
-
-    // c = Musi*c* which isn't "m" because we want it to be on the left hand
-    // c: {
-    //   p: {
-    //     to: [{ key_code: "play_or_pause" }],
-    //   },
-    //   n: {
-    //     to: [{ key_code: "fastforward" }],
-    //   },
-    //   b: {
-    //     to: [{ key_code: "rewind" }],
-    //   },
-    // },
 
     // r = "Raycast"
     // r: {
