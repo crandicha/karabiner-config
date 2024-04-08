@@ -53,6 +53,9 @@ const rules: KarabinerRules[] = [
       ),
       c: open("https://calendar.google.com"),
       m: open("https://mail.google.com"),
+      n: open(
+        "https://gk-k8s-jenkins.ggwp.red/job/TEST/job/TIX-PRICING-DASHBOARD-NEXT-FE/build?delay=0sec"
+      ),
     },
     // o = "Open" applications
     s: {
