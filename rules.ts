@@ -48,7 +48,7 @@ const rules: KarabinerRules[] = [
     // b = "B"rowse
     a: {
       g: open("https://github.com"),
-      j: open(
+      i: open(
         "https://borobudur.atlassian.net/jira/software/c/projects/PRCNG/boards/632?assignee=712020%3A73a7c48f-f6dc-40a1-abc7-82dd1cea1af3"
       ),
       c: open("https://calendar.google.com"),
