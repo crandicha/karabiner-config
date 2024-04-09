@@ -45,7 +45,6 @@ const rules: KarabinerRules[] = [
     ],
   },
   ...createHyperSubLayers({
-    // b = "B"rowse
     a: {
       g: open("https://github.com"),
       // want to put "j", but for some reasons "j" does not work
@@ -58,7 +57,6 @@ const rules: KarabinerRules[] = [
         "https://gk-k8s-jenkins.ggwp.red/job/TEST/job/TIX-PRICING-DASHBOARD-NEXT-FE/build?delay=0sec"
       ),
     },
-    // o = "Open" applications
     s: {
       g: app("Google Chrome"),
       v: app("Visual Studio Code"),
@@ -68,6 +66,9 @@ const rules: KarabinerRules[] = [
       o: app("Obsidian"),
       f: app("Finder"),
       p: app("Spotify"),
+    },
+    d: {
+      q: open("raycast://script-commands/dismiss-notifications"),
     },
   }),
 ];
