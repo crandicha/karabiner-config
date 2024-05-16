@@ -268,30 +268,6 @@
                     "value": 1
                   }
                 ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open https://kibana.ggwp.red/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-24h,to:now))\\&_a=(columns:!(message),filters:!(),index:b216fbe0-9c79-11ed-af0b-d371d55a2212,interval:auto,query:(language:kuery,query:''),sort:!('@timestamp',desc))"
-                  }
-                ],
-                "description": "Open https://kibana.ggwp.red/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-24h,to:now))\\&_a=(columns:!(message),filters:!(),index:b216fbe0-9c79-11ed-af0b-d371d55a2212,interval:auto,query:(language:kuery,query:''),sort:!('@timestamp',desc))",
-                "type": "basic",
-                "from": {
-                  "key_code": "b",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_a",
-                    "value": 1
-                  }
-                ]
               }
             ]
           },
