@@ -15,7 +15,9 @@
                 "from": {
                   "key_code": "caps_lock",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "to": [
@@ -27,7 +29,11 @@
                   },
                   {
                     "key_code": "left_shift",
-                    "modifiers": ["left_command", "left_control", "left_option"]
+                    "modifiers": [
+                      "left_command",
+                      "left_control",
+                      "left_option"
+                    ]
                   }
                 ],
                 "to_after_key_up": [
@@ -56,7 +62,9 @@
                 "from": {
                   "key_code": "a",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "to_after_key_up": [
@@ -104,7 +112,9 @@
                 "from": {
                   "key_code": "g",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -126,7 +136,9 @@
                 "from": {
                   "key_code": "i",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -148,7 +160,9 @@
                 "from": {
                   "key_code": "c",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -170,7 +184,9 @@
                 "from": {
                   "key_code": "m",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -192,7 +208,57 @@
                 "from": {
                   "key_code": "n",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_a",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open https://arjuna.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1&var-env=test&var-service_name=pricing-dashboard-next-fe&var-pod_name=All&var-namespace=pricing-dashboard-next-fe-ns&var-time_duration=1"
+                  }
+                ],
+                "description": "Open https://arjuna.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1&var-env=test&var-service_name=pricing-dashboard-next-fe&var-pod_name=All&var-namespace=pricing-dashboard-next-fe-ns&var-time_duration=1",
+                "type": "basic",
+                "from": {
+                  "key_code": "r",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_a",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open https://kotaro.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1&refresh=30s&var-service_name=pricing-dashboard-next-fe&var-pod_name=All"
+                  }
+                ],
+                "description": "Open https://kotaro.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1&refresh=30s&var-service_name=pricing-dashboard-next-fe&var-pod_name=All",
+                "type": "basic",
+                "from": {
+                  "key_code": "k",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -214,7 +280,9 @@
                 "from": {
                   "key_code": "s",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "to_after_key_up": [
@@ -262,7 +330,9 @@
                 "from": {
                   "key_code": "g",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -284,7 +354,9 @@
                 "from": {
                   "key_code": "v",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -306,7 +378,9 @@
                 "from": {
                   "key_code": "k",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -328,7 +402,9 @@
                 "from": {
                   "key_code": "t",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -350,7 +426,9 @@
                 "from": {
                   "key_code": "i",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -372,7 +450,9 @@
                 "from": {
                   "key_code": "o",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -394,7 +474,9 @@
                 "from": {
                   "key_code": "f",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -416,7 +498,9 @@
                 "from": {
                   "key_code": "p",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
@@ -438,7 +522,9 @@
                 "from": {
                   "key_code": "d",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "to_after_key_up": [
@@ -486,7 +572,9 @@
                 "from": {
                   "key_code": "q",
                   "modifiers": {
-                    "optional": ["any"]
+                    "optional": [
+                      "any"
+                    ]
                   }
                 },
                 "conditions": [
