@@ -57,10 +57,10 @@ const rules: KarabinerRules[] = [
         "https://gk-k8s-jenkins.ggwp.red/job/TEST/job/TIX-PRICING-DASHBOARD-NEXT-FE/build?delay=0sec"
       ),
       r: open(
-        "https://arjuna.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1&var-env=test&var-service_name=pricing-dashboard-next-fe&var-pod_name=All&var-namespace=pricing-dashboard-next-fe-ns&var-time_duration=1"
+        "https://arjuna.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1\\&var-env=test\\&var-service_name=pricing-dashboard-next-fe\\&var-pod_name=All\\&var-namespace=pricing-dashboard-next-fe-ns\\&var-time_duration=1"
       ),
       k: open(
-        "https://kotaro.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1&refresh=30s&var-service_name=pricing-dashboard-next-fe&var-pod_name=All"
+        "https://kotaro.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1\\&refresh=30s\\&var-service_name=pricing-dashboard-next-fe\\&var-pod_name=All"
       ),
     },
     s: {

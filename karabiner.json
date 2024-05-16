@@ -104,10 +104,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'https://github.com'"
+                    "shell_command": "open https://github.com"
                   }
                 ],
-                "description": "Open 'https://github.com'",
+                "description": "Open https://github.com",
                 "type": "basic",
                 "from": {
                   "key_code": "g",
@@ -128,10 +128,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'https://borobudur.atlassian.net/jira/software/c/projects/PRCNG/boards/632?assignee=712020%3A73a7c48f-f6dc-40a1-abc7-82dd1cea1af3'"
+                    "shell_command": "open https://borobudur.atlassian.net/jira/software/c/projects/PRCNG/boards/632?assignee=712020%3A73a7c48f-f6dc-40a1-abc7-82dd1cea1af3"
                   }
                 ],
-                "description": "Open 'https://borobudur.atlassian.net/jira/software/c/projects/PRCNG/boards/632?assignee=712020%3A73a7c48f-f6dc-40a1-abc7-82dd1cea1af3'",
+                "description": "Open https://borobudur.atlassian.net/jira/software/c/projects/PRCNG/boards/632?assignee=712020%3A73a7c48f-f6dc-40a1-abc7-82dd1cea1af3",
                 "type": "basic",
                 "from": {
                   "key_code": "i",
@@ -152,10 +152,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'https://calendar.google.com'"
+                    "shell_command": "open https://calendar.google.com"
                   }
                 ],
-                "description": "Open 'https://calendar.google.com'",
+                "description": "Open https://calendar.google.com",
                 "type": "basic",
                 "from": {
                   "key_code": "c",
@@ -176,10 +176,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'https://mail.google.com'"
+                    "shell_command": "open https://mail.google.com"
                   }
                 ],
-                "description": "Open 'https://mail.google.com'",
+                "description": "Open https://mail.google.com",
                 "type": "basic",
                 "from": {
                   "key_code": "m",
@@ -200,10 +200,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'https://gk-k8s-jenkins.ggwp.red/job/TEST/job/TIX-PRICING-DASHBOARD-NEXT-FE/build?delay=0sec'"
+                    "shell_command": "open https://gk-k8s-jenkins.ggwp.red/job/TEST/job/TIX-PRICING-DASHBOARD-NEXT-FE/build?delay=0sec"
                   }
                 ],
-                "description": "Open 'https://gk-k8s-jenkins.ggwp.red/job/TEST/job/TIX-PRICING-DASHBOARD-NEXT-FE/build?delay=0sec'",
+                "description": "Open https://gk-k8s-jenkins.ggwp.red/job/TEST/job/TIX-PRICING-DASHBOARD-NEXT-FE/build?delay=0sec",
                 "type": "basic",
                 "from": {
                   "key_code": "n",
@@ -224,10 +224,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'https://arjuna.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1&var-env=test&var-service_name=pricing-dashboard-next-fe&var-pod_name=All&var-namespace=pricing-dashboard-next-fe-ns&var-time_duration=1'"
+                    "shell_command": "open https://arjuna.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1\\&var-env=test\\&var-service_name=pricing-dashboard-next-fe\\&var-pod_name=All\\&var-namespace=pricing-dashboard-next-fe-ns\\&var-time_duration=1"
                   }
                 ],
-                "description": "Open 'https://arjuna.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1&var-env=test&var-service_name=pricing-dashboard-next-fe&var-pod_name=All&var-namespace=pricing-dashboard-next-fe-ns&var-time_duration=1'",
+                "description": "Open https://arjuna.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1\\&var-env=test\\&var-service_name=pricing-dashboard-next-fe\\&var-pod_name=All\\&var-namespace=pricing-dashboard-next-fe-ns\\&var-time_duration=1",
                 "type": "basic",
                 "from": {
                   "key_code": "r",
@@ -248,10 +248,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'https://kotaro.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1&refresh=30s&var-service_name=pricing-dashboard-next-fe&var-pod_name=All'"
+                    "shell_command": "open https://kotaro.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1\\&refresh=30s\\&var-service_name=pricing-dashboard-next-fe\\&var-pod_name=All"
                   }
                 ],
-                "description": "Open 'https://kotaro.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1&refresh=30s&var-service_name=pricing-dashboard-next-fe&var-pod_name=All'",
+                "description": "Open https://kotaro.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1\\&refresh=30s\\&var-service_name=pricing-dashboard-next-fe\\&var-pod_name=All",
                 "type": "basic",
                 "from": {
                   "key_code": "k",
@@ -322,10 +322,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open '-a 'Google Chrome.app''"
+                    "shell_command": "open -a 'Google Chrome.app'"
                   }
                 ],
-                "description": "Open '-a 'Google Chrome.app''",
+                "description": "Open -a 'Google Chrome.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "g",
@@ -346,10 +346,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open '-a 'Visual Studio Code.app''"
+                    "shell_command": "open -a 'Visual Studio Code.app'"
                   }
                 ],
-                "description": "Open '-a 'Visual Studio Code.app''",
+                "description": "Open -a 'Visual Studio Code.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "v",
@@ -370,10 +370,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open '-a 'Slack.app''"
+                    "shell_command": "open -a 'Slack.app'"
                   }
                 ],
-                "description": "Open '-a 'Slack.app''",
+                "description": "Open -a 'Slack.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "k",
@@ -394,10 +394,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open '-a 'Todoist.app''"
+                    "shell_command": "open -a 'Todoist.app'"
                   }
                 ],
-                "description": "Open '-a 'Todoist.app''",
+                "description": "Open -a 'Todoist.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "t",
@@ -418,10 +418,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open '-a 'iTerm.app''"
+                    "shell_command": "open -a 'iTerm.app'"
                   }
                 ],
-                "description": "Open '-a 'iTerm.app''",
+                "description": "Open -a 'iTerm.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "i",
@@ -442,10 +442,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open '-a 'Obsidian.app''"
+                    "shell_command": "open -a 'Obsidian.app'"
                   }
                 ],
-                "description": "Open '-a 'Obsidian.app''",
+                "description": "Open -a 'Obsidian.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "o",
@@ -466,10 +466,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open '-a 'Finder.app''"
+                    "shell_command": "open -a 'Finder.app'"
                   }
                 ],
-                "description": "Open '-a 'Finder.app''",
+                "description": "Open -a 'Finder.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "f",
@@ -490,10 +490,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open '-a 'Spotify.app''"
+                    "shell_command": "open -a 'Spotify.app'"
                   }
                 ],
-                "description": "Open '-a 'Spotify.app''",
+                "description": "Open -a 'Spotify.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "p",
@@ -564,10 +564,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://script-commands/dismiss-notifications'"
+                    "shell_command": "open raycast://script-commands/dismiss-notifications"
                   }
                 ],
-                "description": "Open 'raycast://script-commands/dismiss-notifications'",
+                "description": "Open raycast://script-commands/dismiss-notifications",
                 "type": "basic",
                 "from": {
                   "key_code": "q",
