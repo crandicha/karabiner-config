@@ -62,6 +62,7 @@ const rules: KarabinerRules[] = [
       k: open(
         "https://kotaro.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1\\&refresh=30s\\&var-service_name=pricing-dashboard-next-fe\\&var-pod_name=All"
       ),
+      o: open("https://inca.ggwp.red/ui/tiket/kv"),
     },
     s: {
       g: app("Google Chrome"),

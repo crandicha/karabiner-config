@@ -268,6 +268,30 @@
                     "value": 1
                   }
                 ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open https://inca.ggwp.red/ui/tiket/kv"
+                  }
+                ],
+                "description": "Open https://inca.ggwp.red/ui/tiket/kv",
+                "type": "basic",
+                "from": {
+                  "key_code": "o",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_a",
+                    "value": 1
+                  }
+                ]
               }
             ]
           },
