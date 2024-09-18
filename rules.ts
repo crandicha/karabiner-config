@@ -1,6 +1,6 @@
 import fs from "fs";
 import { KarabinerRules } from "./types";
-import { createHyperSubLayers, app, open, run } from "./utils";
+import { createHyperSubLayers, app, open, run, copy } from "./utils";
 
 const rules: KarabinerRules[] = [
   // Define the Hyper key itself
@@ -76,6 +76,11 @@ const rules: KarabinerRules[] = [
     },
     d: {
       q: open("raycast://script-commands/dismiss-notifications"),
+    },
+    f: {
+      l: copy("https://local.tiket.com:3001"),
+      o: copy("https://gatotkaca.tiket.com/admin/member"),
+      p: copy("405468"),
     },
   }),
 ];
