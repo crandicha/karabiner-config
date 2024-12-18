@@ -63,12 +63,6 @@ const rules: KarabinerRules[] = [
         "https://kotaro.kepo.ninja/d/kubernetes-react-details/kubernetes-react-details?orgId=1\\&refresh=30s\\&var-service_name=pricing-dashboard-next-fe\\&var-pod_name=All"
       ),
       o: open("https://inca.ggwp.red/ui/tiket/kv"),
-      v: open(
-        "https://gkkibana.ggwp.red/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-24h,to:now))&_a=(columns:!(message),filters:!(),index:logs-pricing-dashboard-next-fe-hotel,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))"
-      ),
-      b: open(
-        "https://kibana.ggwp.red/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-24h,to:now))&_a=(columns:!(message),filters:!(),index:b216fbe0-9c79-11ed-af0b-d371d55a2212,interval:auto,query:(language:kuery,query:''),sort:!('@timestamp',desc))"
-      ),
     },
     s: {
       g: app("Google Chrome"),

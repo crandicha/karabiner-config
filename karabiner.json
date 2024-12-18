@@ -301,10 +301,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://gkkibana.ggwp.red/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-24h,to:now))&_a=(columns:!(message),filters:!(),index:logs-pricing-dashboard-next-fe-hotel,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))"
+                    "shell_command": "open https://gkkibana.ggwp.red/app/discover#/?index:logs-pricing-dashboard-next-fe-hotel=&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(message),filters:!(),index:logs-pricing-dashboard-next-fe-hotel,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))"
                   }
                 ],
-                "description": "Open https://gkkibana.ggwp.red/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-24h,to:now))&_a=(columns:!(message),filters:!(),index:logs-pricing-dashboard-next-fe-hotel,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))",
+                "description": "Open https://gkkibana.ggwp.red/app/discover#/?index:logs-pricing-dashboard-next-fe-hotel=&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(message),filters:!(),index:logs-pricing-dashboard-next-fe-hotel,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))",
                 "type": "basic",
                 "from": {
                   "key_code": "v",
